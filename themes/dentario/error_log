@@ -1,0 +1,1 @@
+[15-Jan-2017 11:53:08 UTC] PHP Fatal error:  Call to undefined function is_singular() in /home/oztrust/public_html/serena/wp-content/themes/dentario/index.php on line 11

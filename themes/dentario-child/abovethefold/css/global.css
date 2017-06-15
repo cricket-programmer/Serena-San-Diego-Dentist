@@ -1,0 +1,320 @@
+/**
+ * Global
+ */
+@charset 'utf-8';
+/*
+ Theme Name:   Dentario Child
+ Theme URI:    http://dentario.themerex.net/
+ Description:  Dentario - Fully Responsive and Mobile Friendly theme
+ Author:       ThemeRex
+ Author URI:   http://themerex.net
+ Template:     dentario
+ Version:      1.0
+ Tags:         light, inheritable theme-options
+ Text Domain:  themerex
+*/
+
+
+@import url("../dentario/style.css");
+
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.black-row {
+	color: #fff;
+}
+p {
+	text-align: justify;
+}
+
+/* =Theme customization
+-------------------------------------------------------------- */
+
+.top_panel_style_2 .contact_field {
+	float:right;
+	padding-top: 20px;
+}
+.top_panel_style_2 .contact_field p {
+	margin: 0;
+    text-align: right;
+    font-weight: bold;
+}
+.top_panel_style_2 .contact_field a {
+	color: #000;
+	padding-left: 5px;
+}
+.scheme_original .top_panel_style_2 .contact_phone {
+	font-size: 38px!important;
+	font-family: inherit!important;
+	text-align: left;
+}
+.contact_phone a {
+	font-family: times!important;
+	text-align: left;
+}
+.contact_field p {
+	color:#8f6628;
+	text-align: left!important;
+	font-family: times!important;
+}
+.contact_field p a {
+	color:#8f6628!important;
+	text-align: left!important;
+	font-family: times!important;
+}
+.ico-container {
+	display: block;
+}
+.mobile-ico {
+	display: inline-block!important;
+    float: left!important;
+    font-size: 4em!important;
+    color: #8f6628!important;
+    line-height: .8em!important;
+    padding-right: 15px!important;
+}
+.header_mobile .logo {
+	width: 50%;
+    display: inline-block;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.top_panel_style_2 .logo,
+.top_panel_style_2 .contact_field {
+	margin-top: .5em!important;
+    margin-bottom: .5em!important;
+}
+
+.top_panel_inner_style_2 .menu_main_nav > li > a {
+	padding-top: 1.15em!important;
+    padding-bottom: 0.6em!important;
+}
+
+.header_mobile .call-now {
+	text-align: center;
+	width: 20%;
+    display: inline-block;
+    padding: 8px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    border: solid 1px #ab8c5e;
+    position: relative;
+    top: -17px;
+}
+
+
+.cta>div {
+	padding-left: 80px;
+}
+
+.cta-title {
+	font-weight: bold;
+	background: #000;
+	padding: 2px;
+    display: inline;
+    line-height: 1.3em!important;
+}
+.cta-text {
+	padding: 20px 0;
+    font-size: 14px;
+    width: 70%;
+}
+.cta-button a {
+	color: #000!important;
+	font-weight: bold;
+}
+
+.service-container h5 {
+	margin: 0;
+}
+.service-container p {
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+.testimonials .vc_tta-tabs-container {
+	display: none!important;
+}
+.testimonials .title {
+	padding-left: 60px;
+}
+
+.form-title {
+	background: #8f6628;
+    font-size: 1.2em;
+    padding: 20px;
+    text-align: center;
+    color: #fff!important;
+    font-weight: bold;
+}
+.contact-form form {
+	background: #000;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form input[type="tel"],
+.contact-form form textarea {
+	background: #fff;
+    color: #000;
+    border: none;
+    padding: 3px;
+    width: 100%;
+}
+.contact-form form input[type="submit"] {
+	width: 50%;
+    float: right;
+}
+
+.benefit {
+	padding: 20px!important;
+}
+.benefit img {
+	vertical-align: baseline;
+}
+.benefit h4 {
+	margin: 0;
+}
+
+.sc_blogger {
+	background: #f4f4f4;
+	padding: 5px;
+}
+
+.post_content_wrap {
+	background: #f4f4f4;
+}
+.post_item_related .post_title {
+	font-size: 25px;
+	font-weight: 100;
+}
+.post_item_related .post_content_wrap {
+	padding: 0;
+}
+
+
+.footer_wrap_inner,
+.scheme_original .copyright_wrap_inner {
+	background-color: #fff!important;
+}
+.footer_wrap.widget_area + .copyright_wrap .content_wrap_outer {
+	background: #fff!important;
+	color: #000;
+	padding: 10px;
+}
+.scheme_original .copyright_wrap_inner .copyright_text,
+.footer_wrap_inner,
+.scheme_original .footer_wrap_inner.widget_area_inner .widget_title,
+.scheme_original .widget_area_inner .widget_text a:not(.sc_button) {
+	color: #000!important;
+}
+
+/*===============================*/
+.requested-treatment h4 {
+	font-size: 25px;
+    font-weight: bold;
+}
+.requested-treatment h6 {
+	font-size: 15px;
+}
+.requested-treatment h4, 
+.requested-treatment h6 {
+	margin: 0;
+}
+.requested-treatment p {
+	line-height: 1.5;
+}
+.requested-treatment p {
+	font-size: 12px;
+}
+/*===============================*/
+.average-price-container {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+.average-price .wpb_wrapper {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.average-price .image_wrap {
+	width: 50%;
+	margin: 0 auto;
+}
+.average-price {
+	padding: 10px 15px!important;
+}
+.average-price .vc_column-inner {
+    border: solid 2px #eee;
+    padding: 10px 0;
+    height: 100%;
+}
+.featured .vc_column-inner {
+	background: #8f6628;
+    color: #fff!important;
+}
+.price-title h4 {
+	font-size: 1.6em;
+	font-weight: bold;
+	margin: 0;
+	color: #8f6628!important;
+}
+.featured h4 {
+	color: #ffffff!important;
+}
+.price p {
+	font-family: serif!important;
+	font-size: 2.8em;
+	padding: 40px 0;
+	text-align: center; 
+}
+.ic-price {
+	font-size: 18px;
+	vertical-align: bottom;
+}
+.price-note p {
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+	.header_mobile .content_wrap {
+		margin-left: 70px!important;
+	    text-align: left!important;
+	    width: 80%;
+	}
+	.header_mobile .menu_button {
+		left: 35px!important;
+	}
+	.header_mobile .logo_main {
+    	/*height: 45px!important;*/
+	}
+
+
+	.vc_custom_1490921108915 {
+	background: none!important;
+	background: #000!important;
+	}
+	.vc_custom_1490921108915>.wpb_wrapper {
+		padding: 100px 0!important;
+	}
+
+
+	.cta-title {
+	background: #000;
+    display: inline;
+    line-height: 1em;
+    font-size: 3em!important;
+	}
+}
+@media (max-width: 1439px) and (min-width: 1263px) {
+	.slider_boxed, .content_wrap, .content_container {
+    width: 1200px!important;
+}
