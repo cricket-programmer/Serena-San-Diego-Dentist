@@ -70,6 +70,15 @@ $video_bg_show  = dentario_get_custom_option('show_video_bg')=='yes' && (dentari
 
 <body <?php body_class();?>>
 
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMSH6KX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
 <div id="preloader">
     <div id="loader"></div>
 </div>
