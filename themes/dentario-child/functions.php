@@ -23,13 +23,13 @@ return $parts[0];
 add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
 add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
 
-wp_deregister_script('wp-mediaelement');
-wp_deregister_style('wp-mediaelement');
+// wp_deregister_script('wp-mediaelement');
+// wp_deregister_style('wp-mediaelement');
 
-add_action('wp_print_styles', 'mytheme_dequeue_css_from_plugins', 100);
-function mytheme_dequeue_css_from_plugins()  {
-	wp_dequeue_style( "/wp-includes/js/mediaelement/mediaelementplayer.min.css" ); 
-}
+// add_action('wp_print_styles', 'mytheme_dequeue_css_from_plugins', 100);
+// function mytheme_dequeue_css_from_plugins()  {
+// 	wp_dequeue_style( "/wp-includes/js/mediaelement/mediaelementplayer.min.css" ); 
+// }
 
 // REMOVE EMOJI ICONS
 remove_action('wp_head', 'print_emoji_detection_script', 7);
