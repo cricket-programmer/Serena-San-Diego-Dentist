@@ -66,6 +66,23 @@ $video_bg_show  = dentario_get_custom_option('show_video_bg')=='yes' && (dentari
 	}
 	</script>
 
+
+	<?php 
+
+		if ( is_front_page() && is_home() ) {
+		  // Default homepage
+		} elseif ( is_front_page() ) {
+		  // static homepage
+		} elseif ( is_home() ) {
+		  echo("<style>
+		  		.content { padding-top: 50px;}
+		  		</style>");
+		} else {
+		  //everything else
+		}
+
+	 ?>
+
 </head>
 
 <body <?php body_class();?>>
