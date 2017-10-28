@@ -26,9 +26,13 @@ li {
 /*popup*/
 
 #popmake-4255,
-#popmake-4279 {
+#popmake-4279,
+#popmake-4401 {
     padding: 0!important;
     background: #222222!important;
+}
+#popmake-4401 {
+    background: #1f2836!important;
 }
 .pum-theme-default-theme .pum-container input {
     width: 100%;
@@ -197,15 +201,15 @@ h1.post_title {
 }
 
 .vc_btn3.vc_btn3-color-primary.vc_btn3-style-outline {
-    color: #ac7c2a!important;
-    border-color: #ac7c2a!important;
+    color: #008FC5!important;
+    border-color: #008FC5!important;
     background: none!important;
 }
 .vc_btn3.vc_btn3-color-primary, .vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat {
-	background-color: #ac7c2a!important;
+	background-color: #008FC5!important;
 }
 .vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat:hover {
-	background-color: #ac7c2a!important;
+	background-color: #008FC5!important;
 }
 a,h1,h2 {
 	font-family: "gotham"!important;
